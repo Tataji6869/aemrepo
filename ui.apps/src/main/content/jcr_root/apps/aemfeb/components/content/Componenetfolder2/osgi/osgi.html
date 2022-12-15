@@ -1,0 +1,24 @@
+
+ 123
+ <h1> osgi component.osgiwiithslingmodel</h1>
+
+<div data-sly-use.osgi="com.aem.aemfeb.core.october.OsgiSlingModel"></div>
+<div>${osgi.raj}</div>
+<div>${osgi.tataji}</div>
+
+<div>${osgi.studentDetails}</div>
+
+<div data-sly-use.os="com.aem.aemfeb.core.october.Osgiwcmusepojo"></div>
+<div>${os.details}</div>
+
+
+<h1>data sly use...with list</h1>
+<div data-sly-use.service="com.aem.aemfeb.core.october.Osgi17ServiceModel">
+====================================================================================
+<div data-sly-list.item="${service.pageDetails}">
+
+<p>Page${itemList.count}Tittle:<b>${item.title}</b></p>
+</div>
+
+
+

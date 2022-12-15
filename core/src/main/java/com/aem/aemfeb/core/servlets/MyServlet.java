@@ -32,7 +32,7 @@ import java.io.IOException;
 
 @Component(service=Servlet.class,
            property={
-                   Constants.SERVICE_DESCRIPTION + "=Myfirst Servlet",
+                   Constants.SERVICE_DESCRIPTION +"=Myfirst Servlet",
                    "sling.servlet.methods=" + HttpConstants.METHOD_GET,
                    "sling.servlet.paths=" +"/bin/myservlet"
                 
