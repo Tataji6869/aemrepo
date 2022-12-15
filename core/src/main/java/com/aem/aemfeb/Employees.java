@@ -2,7 +2,7 @@ package com.aem.aemfeb;
 
 public class Employees {
 	private String name;
-	private String email;
+	private String email;// this changes in repository......in gihub
 	private String age;// this is testing   and changesss upadted sucessfully
 	
 	private String weight;
