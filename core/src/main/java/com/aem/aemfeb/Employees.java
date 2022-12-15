@@ -3,12 +3,13 @@ package com.aem.aemfeb;
 public class Employees {
 	private String name;
 	private String email;
-	private String age;// this is testing   and changesss
+	private String age;// this is testing   and changesss upadted sucessfully
+	
 	private String weight;
 	public String getName() {
 		return name;
 	}
-	public void setName(String name) {
+	public void setName(String name) {// this changes are in eclips
 		this.name = name;
 	}
 	public String getEmail() {
